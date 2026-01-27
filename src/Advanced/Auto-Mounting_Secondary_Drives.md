@@ -36,7 +36,7 @@ Now reboot, your partition should be mounted automatically. Should appear under 
 
 ![GNOME_Mount_Options|549x500, 75%](../img/GNOME_Mount_Options_new.png)
 
-Append `,user,exec` at the end if doesnt work properly.
+Append `,user,exec` at the end if it doesn't work properly.
 
 ![](../img/GNOME_Mount_Options_new.2.png)
 
