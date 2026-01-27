@@ -24,7 +24,7 @@ distrobox create arctis --additional-flags "--privileged" --additional-packages 
 distrobox enter arctis
 ```
 
-## Install RPM (Inside A Distrobox container):
+## Install RPM (Inside A Distrobox Container):
 ```
 wget https://github.com/elegos/Linux-Arctis-Manager/releases/download/v1.6.3/arctis-manager-1.6.3-1.fc42.x86_64.rpm
 sudo dnf install arctis-manager-1.6.3-1.fc42.x86_64.rpm
