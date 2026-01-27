@@ -1,15 +1,15 @@
 ---
 title: Installing Arctis Manager
-authors:
-  - "@rdamron"
-tags:
-  -  Guide
 ---
+
+# Installing Arctis Manager
+
+## Purpose
 
 This guide will walk you through the steps to install and run Arctis Manager in Distrobox then run it automatically at startup.
 This guide works with [Linux-Arctis-Manager](https://github.com/elegos/Linux-Arctis-Manager) v1.6.3.
 
-# Add udev rules on host:
+## Add udev Rules on Host:
 This will let arctis manager access the usb device without needing root.
 ```
 cd /etc/udev/rules.d/
@@ -18,35 +18,35 @@ sudo udevadm control --reload-rules
 sudo udevadm trigger
 ```
 
-# Create & Enter distrobox:
+## Create & Enter A Distrobox Container:
 ```
 distrobox create arctis --additional-flags "--privileged" --additional-packages "pw-cli"
 distrobox enter arctis
 ```
 
-# Install RPM (inside distrobox):
+## Install RPM (Inside A Distrobox container):
 ```
 wget https://github.com/elegos/Linux-Arctis-Manager/releases/download/v1.6.3/arctis-manager-1.6.3-1.fc42.x86_64.rpm
 sudo dnf install arctis-manager-1.6.3-1.fc42.x86_64.rpm
 ```
 
-# Export App (inside distrobox):
+## Export App (Inside A Distrobox Container):
 ```
 distrobox-export -b /usr/local/bin/arctis-manager -el "Arctis Manager"
 ```
 
-# Exit distrobox & run from host:
+## Exit Distrobox Container & Run From Host:
 (Inside distrobox)
 ```
 exit
 ```
 
-## Test and make sure it runs. CTRL-C once it starts correctly.
+### Test Arctis Manager(<kbd>CTRL</kbd>+<kbd>C</kbd> once it starts correctly).
 ```
 arctis-manager
 ```
 
-# Create user systemd service & find the path to arctis-manager:
+## Create A User SystemD Service & Find the Path to `arctis-manager`:
 ```
 touch ~/.config/systemd/user/arctis-manager.service
 which arctis-manager
@@ -56,7 +56,7 @@ Copy the output from the last command and place in the ExecStart line in arctis-
 ```
 nano ~/.config/systemd/user/arctis-manager.service
 ```
-## arctis-manager.service
+### `arctis-manager.service`
 ```
 [Unit]
 Description=Arctis Manager
@@ -72,7 +72,7 @@ RestartSec=2
 WantedBy=graphical-session.target
 ```
 
-## Reload and launch
+### Reload and Launch
 ```
 systemctl --user daemon-reload
 systemctl --user enable --now arctis-manager.service
