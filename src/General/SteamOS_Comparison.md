@@ -43,7 +43,7 @@ It is also designed for daily driving, with a focus on **gaming**, **multi-media
 - Access to multiple package managers and repositories in containers using [Distrobox](https://distrobox.it).
 - [Homebrew](https://brew.sh/) is pre-installed for command-line packages.
 - [Layer](/Installing_and_Managing_Software/rpm-ostree.md) Fedora packages to the system which survive between system updates.
-- Check out [Development](gttps://dev.bazzite.gg) for more information.
+- Check out [Development](https://dev.bazzite.gg) for more information.
 
 ### Security Improvements
 
