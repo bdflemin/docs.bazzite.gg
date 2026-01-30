@@ -28,7 +28,7 @@ You can use this log file for requesting support.
 ### NTFS Permissions ###
 Make sure your games are **not** on a NTFS (Windows) partition. More information [here](./Hardware_compatibility_for_gaming.md#unsupported-filesystems-for-secondary-drives)
 
-### Multi-User WINE Quirks ###
+### Multi-User WINE Quirks
 Sometimes Steam games will completely refuse to launch on a secondary user account. 
 This can be due to the ownership of the WINE prefix files. 
 You might see an error like this in ` ~/.local/share/Steam/logs/console-linux.txt ` on the secondary user account:
