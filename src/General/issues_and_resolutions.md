@@ -112,7 +112,7 @@ Next run `iw wlp6s0 get power_save` (change `wlp6s0` if your device name is diff
 Power save: on
 ```
 
-There are different steps to resolve this depending on if you've disabled **iwd**. If you have updated or installed Bazzite after 1st Jan 2026, **iwd** will be set as the default WiFi backend.
+There are different steps to resolve this depending on if you've disabled **iwd**. If you have updated or installed Bazzite after [1st Jan 2026](https://universal-blue.discourse.group/t/bazzite-spring-cleaning-in-december-update/), **iwd** will be set as the default WiFi backend.
 !!! info "**iwd** replaced **wpa_supplicant** as the default WiFi backend for Bazzite since 2026. To switch back, run `ujust toggle-iwd`. Note that switching will **remove** all network configurations."
 
 === "iwd (iwd is ON)"
