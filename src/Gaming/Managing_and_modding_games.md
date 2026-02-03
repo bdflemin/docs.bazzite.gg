@@ -21,7 +21,7 @@ Some games require [Protontricks](https://github.com/Matoking/protontricks) (pre
 
 ## Modding
 
-**Steam Workshop is the most straightforward method to obtain mods**, but is not supported for every title and requires you to own the game on Steam. Some mod managers have Linux ports like [r2modman.](https://github.com/ebkr/r2modmanPlus).
+**Steam Workshop is the most straightforward method to obtain mods**, but is not supported for every title and requires you to own the game on Steam. Some mod managers have Linux ports like [r2modman](https://github.com/ebkr/r2modmanPlus).
 
 Adding and replacing game files is still viable in both the game directory and prefix, but there may be some extra steps involved.  Some mods require a "WINE DLL OVERRIDE" environment variable in the Steam launch options.  For non-Steam Games, use Lutris to open "Wine Configuration" and select the "Libraries" tab to add new overrides.
 
