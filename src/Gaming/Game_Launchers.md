@@ -37,7 +37,7 @@ Lutris offers two methods to play Windows games on Bazzite.  Community-driven sc
 
 ![Lutris manually adding games example 1|690x213](../img/Lutris_Setup_Add_Local_Game_1.png)
 
-However if your game is not listed or doesn't work with the provided script, then manually add the executable. It will need a **prefix directory** created, but by default it will use the `~/Games` directory for each game.
+However if your game is not listed or doesn't work with the provided script, then manually add the executable. It will need a [**prefix directory**](./Managing_and_modding_games.md) created, but by default it will use the `~/Games` directory for each game.
 
 
 ### Lutris Install Scripts
