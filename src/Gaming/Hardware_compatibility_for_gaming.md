@@ -13,7 +13,8 @@ title: Hardware Compatibility for Linux Gaming
 - **Processor (CPU)** : 2GHz quad core processor or better
 - **System Memory (RAM)**: 8GB
 - **Graphics**: A graphics card that can utilize Vulkan 1.3 or higher, modern AMD GPUs work the best
-- **Storage**: 64GB free on an internal **solid-state drive (SSD)**
+- **Storage**: 50GB of free space on an internal **solid-state drive (SSD)**
+  - **Recommended Storage**: 120GB of free space on an internal **solid-state drive (SSD)**
   - **External Storage & Secondary Drives**: All drives must be formatted as **BTRFS (SSDs)** or **Ext4 (Hard Disk Drives [HDDs])**, please backup the files and reformat them post-installation. 
 - **Network**: Stable internet connection with no bandwidth caps
 - **Additional Notes**: Certain peripherals are **not** compatible with Bazzite:
