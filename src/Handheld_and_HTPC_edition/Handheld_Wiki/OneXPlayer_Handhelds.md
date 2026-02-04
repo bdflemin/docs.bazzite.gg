@@ -1,10 +1,8 @@
 ---
-authors:
-  - "@nicknamenamenick"
-tags:
-  -  Handhelds
+title: OneXPlayer Handhelds
 ---
 
+# OneXPlayer Handhelds
 
 !!! disclaimer
 
@@ -16,13 +14,3 @@ tags:
 
 ### Workarounds / Known Issues
 - Adjusting the vibration intensity is not supported yet
-
-## Contributing
-
-This page is a **wiki**, edit it to add any relevant information you may have regarding the handheld and your experience with Bazzite on it. Make sure to follow proper [contributing guidelines](https://universal-blue.org/contributing.html) before adding any edits.
-
-<hr>
-
-**See also**: [Steam Gaming Mode Overview](../Steam_Gaming_Mode.md)
-
-**<-- Back to [Handheld Wiki](./index.md)**
