@@ -11,7 +11,7 @@ title: Managing and Modding Games
 
 Windows games need to run through a **compatibility layer** (like Proton) on Bazzite. KDE Plasma and GNOME images pre-install different, but similar compatibility layer managers.
 
-<Add ProtonPlus screenshot>
+![Proton Plus|1797x1412, 43%](../img/proton-plus.png)
 
 Install and update to the latest [GE-Proton](https://github.com/GloriousEggroll/proton-ge-custom), [Luxtorpeda](https://github.com/luxtorpeda-dev/luxtorpeda), and other tools using ProtonPlus.
 
