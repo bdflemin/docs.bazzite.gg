@@ -41,6 +41,7 @@ Non-Steam games can have the prefix folder anywhere you specify.  By default Lut
 
 Adding and replacing game files is still viable in both the game directory and prefix, but there may be some extra steps involved.  Some mods require a "WINE DLL OVERRIDE" environment variable in the Steam launch options.  For non-Steam Games, use Lutris to open "Wine Configuration" and select the "Libraries" tab to add new overrides.
 
-!!! example
+### Example of a DLL override launch option:
 
-    **DirectInput8 DLL Override**: `WINEDLLOVERRIDES="dinput8=n,b" %command%`
+    **DirectInput8 DLL Override**: 
+    `WINEDLLOVERRIDES="dinput8=n,b" %command%`
