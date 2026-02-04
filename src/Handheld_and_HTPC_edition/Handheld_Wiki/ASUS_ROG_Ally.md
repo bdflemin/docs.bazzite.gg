@@ -1,8 +1,8 @@
 ---
-title: ASUS ROG Ally Handhelds
+title: ASUS Handhelds
 ---
 
-# ASUS ROG Ally Handhelds
+# ASUS Handhelds
 
 !!! disclaimer
 
