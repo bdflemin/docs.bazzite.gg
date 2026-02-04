@@ -1,16 +1,12 @@
 ---
-title: Installation Guide
+title: Bazzite Installation Guide
 ---
-
-<!-- ANCHOR: METADATA -->
-<!--{"url_discourse": "https://universal-blue.discourse.group/docs?topic=30", "fetched_at": "2024-09-03 16:43:25.704918+00:00"}-->
-<!-- ANCHOR_END: METADATA -->
 
 # Bazzite Installation Guide
 
 !!! Note
       
-      This installation guide is for the **legacy ISO** and an update for the new ISOs will be coming soon.
+      This installation guide is for the **legacy ISO** and an updated guide for the new ISOs will be coming soon.
 
 ## **Important Installation Notes**:
 
@@ -28,10 +24,6 @@ title: Installation Guide
 
 - [Installing Bazzite for **Desktop/Laptop Hardware**](./Installing_Bazzite_for_Desktop_or_Laptop_Hardware.md)
 
-- [Installing Bazzite for **Framework Laptop 16**](https://guides.frame.work/Guide/Bazzite+Installation+on+the+Framework+Laptop+16/407)
-
-- [Installing Bazzite for **Framework Laptop 13**](https://guides.frame.work/Guide/Bazzite+Installation+on+the+Framework+Laptop+13/405)
-
 - [Installing Bazzite for **Home Theater PC (HTPC) Setups**](./Installing_Bazzite_for_HTPC_Setups.md)\*
 
 - [Installing Bazzite on the **Steam Deck**](./Installing_Bazzite_for_Steam_Deck.md)\*
@@ -43,7 +35,3 @@ title: Installation Guide
 ## Issues Installing Bazzite?
 
 Read the [**Troubleshooting Guide**](./troubleshoot_guide.md) for installation workarounds.
-
-<hr>
-
-<-- [**View all Bazzite documentation**](../../index.md)
