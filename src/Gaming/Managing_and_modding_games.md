@@ -7,8 +7,6 @@ title: Managing and Modding Games
 ## Compatibility Layers & Managing Windows Games
 
 ![Proton Plus|1797x1412, 43%](../img/proton-plus.png)
-![Cog Icon > Properties|690x284, 75%](../img/Steam_Setup_Cog.png)
-![Compatibility tab|690x492, 75%](../img/Steam_Setup_Compat_Tab.png)
 
 Windows games need to run through a **compatibility layer** (like Proton) on Bazzite. Install and update to the latest [GE-Proton](https://github.com/GloriousEggroll/proton-ge-custom), [Luxtorpeda](https://github.com/luxtorpeda-dev/luxtorpeda), and other tools using ProtonPlus.
 
