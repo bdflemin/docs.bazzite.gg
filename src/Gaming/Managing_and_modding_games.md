@@ -48,6 +48,14 @@ For games on Steam, they are located in your `~/.steam/root/steamapps/compatdata
 
 Non-Steam games can have the prefix folder anywhere you specify.  By default Lutris uses `~/Games` as the main folder.
 
+#### Broken Proton Prefix?
+
+!!! warning
+
+    Deleting a Proton prefix **_can_** delete saves and configuration files!
+
+Open the prefix directory for the game and delete the data inside of it. Be careful not to delete the root `.../compatdata` directory (or `~/Games`, or the custom directory that you set, for non-Steam games) which would remove the prefix data for all of the games!
+
 ## Modding
 
 **Steam Workshop is the most straightforward method to obtain mods**, but is not supported for every title and requires you to own the game on Steam. Some mod managers have Linux ports like [r2modman](https://github.com/ebkr/r2modmanPlus).
