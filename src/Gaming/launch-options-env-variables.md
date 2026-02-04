@@ -12,7 +12,7 @@ Linux gaming is far more intuitive today than it was years ago.  There are still
 
 ![Template|690x334, 50%](../img/DXVK_Mango_VkBasalt_templ.png)
 
-Bazzite users can use templates for some of the pre-installed tools which can be accessed by right clicking anywhere in the file manager.  There are also applications like [Mango Juice](https://flathub.org/en/apps/io.github.radiolamp.mangojuice) that acts as a graphical method of configuring Mangohud.
+Bazzite users can use templates for some of the pre-installed tools which can be accessed by right clicking anywhere in the file manager.  There are also applications like [**Mango Juice**](https://flathub.org/en/apps/io.github.radiolamp.mangojuice) that acts as a graphical method of configuring Mangohud.
 
 ## Steam Launch Options and Shortcuts
 
