@@ -1,8 +1,8 @@
 ---
-title: Gaming on Bazzite Introduction
+title: Introduction to Gaming on Bazzite
 ---
 
-# Gaming on Bazzite Introduction
+# Introduction to Gaming on Bazzite
 
 ## Paradigm Shift
 
