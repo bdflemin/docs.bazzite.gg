@@ -22,7 +22,7 @@ title: ASUS Handhelds
 - Adjust settings in Handheld Daemon.
 - Adjust the scaling of the UI in the Display Settings.
 
-### Workarounds / Known Issues
+### Known Issues
 - Changing A/C power sometimes leads to a stuck TDP.
 - Some users report the mic sounding garbled
   - Solution to that is to set the mic/input volume to 10%-15% in settings
