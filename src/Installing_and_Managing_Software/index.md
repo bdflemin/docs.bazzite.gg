@@ -18,3 +18,4 @@ title: Installing and Managing Applications
   - [**Updates**]()
   - [**Rolling Back Updates**]()
   - [**Rebasing Images**]()
+  - [**`bazzite-rollback-helper`**]()
