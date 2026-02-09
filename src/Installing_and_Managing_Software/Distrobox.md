@@ -1,18 +1,46 @@
 ---
-authors:
-  - "@nicknamenamenick"
-tags:
-  -  Software
-# preview: "../img/distrobox.png"
-preview:
-  alpha: 150
-  image: "../img/distrobox.png"
-description: ""
+title: Distrobox Containers
 ---
 
-<!-- ANCHOR: METADATA -->
-<!--{"url_discourse": "https://universal-blue.discourse.group/docs?topic=2640", "fetched_at": "2024-09-03 16:43:09.168054+00:00"}-->
-<!-- ANCHOR_END: METADATA -->
+![distrobox|510x413](../img/distrobox.png)
+
+Run other minimal variants of popular Linux distributions in Bazzite inside of a container and access each distribution's packages without any of their dependencies and libraries affecting the host machine.
+
+- Containers are **not** virtual machines.
+- Containers are intended to be **disposable** and may run into issues where they need to be recreated.
+- Using this method to obtain software **requires knowledge of how traditional Linux operating systems install packages**.
+  - Create a test container to familiarize yourself with basic Linux commands before diving in further.
+
+Distrobox containers run sub-systems of other popular [Linux distributions](https://distrobox.it/compatibility/#containers-distros) with access to their package managers (`apt`, `dnf`, `pacman`, etc.) and their package formats (`.deb`/`.rpm`) and any additional repositories like the [AUR](https://aur.archlinux.org/). Distrobox containers can be used for both **development environments** and **installing applications that are not available in any of the other installation methods** which can be exclusive to specific package managers.
+
+![i use arch btw|1022x822, 75%](../img/i_use_arch_btw.png)
+
+<sub><sup>i use arch (in a container) btw.</sup></sub>
+
+**Linux Distribution Examples**:
+
+| OS                                  | Package Manager    | Search for Packages                                                       |
+| ----------------------------------- | ------------------ | ------------------------------------------------------------------------- |
+| [Fedora][fedora]                    | [`dnf`][dnf]       | [Fedora Packages][fedora_pkgs] / [COPR Packages][copr]                    |
+| [Arch][arch]                  | [`pacman`][pacman] | [Arch Linux Packages][arch_pkgs] / [AUR Packages][aur_pkgs]               |
+| [Debian][debian] / [Ubuntu][ubuntu] | [`apt`][apt]       | [Debian Packages][deb_pkgs] / [Ubuntu Packages][ubuntu_pkgs] ([PPA][ppa]) |
+| [openSUSE][osuse]                   | [`zypper`][zypper] | [openSUSE Packages][osuse_pkgs]                                           |
+| [Void][void]                  | [`xbps`][xbps]     | [Void Linux Packages][void_pkgs]                                          |
+| [Alpine][alpine]              | [`apk`][apk]       | [Alpine Linux Packages][alpine_pkgs]                                      |
+
+#### Distrobox Graphical Interface
+
+![Distroshelf|970x752, 75%](../img/distroshelf_fixedcrop.png)
+
+Distrobox containers can be created and managed graphically with [**DistroShelf**](https://github.com/ranfdev/DistroShelf) which is pre-installed.
+
+#### Distrobox Video Guide
+
+https://youtu.be/5m0YfIiypwA
+
+<hr>
+
+## OLD
 
 ## What is Distrobox?
 
@@ -110,10 +138,6 @@ https://youtu.be/5m0YfIiypwA
 ### Project Website
 
 https://distrobox.it/
-
-<hr>
-
-[**<-- Back to Installing and Managing Software on Bazzite**](./index.md)
 
 [fedora]: https://fedoraproject.org/
 [dnf]: https://docs.fedoraproject.org/en-US/quick-docs/dnf/
