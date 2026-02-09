@@ -17,7 +17,7 @@ Distrobox containers run sub-systems of other popular [Linux distributions](http
 
 <sub><sup>i use arch (in a container) btw.</sup></sub>
 
-**Linux Distribution Examples**:
+### **Linux Distribution Examples**:
 
 | OS                                  | Package Manager    | Search for Packages                                                       |
 | ----------------------------------- | ------------------ | ------------------------------------------------------------------------- |
@@ -27,52 +27,18 @@ Distrobox containers run sub-systems of other popular [Linux distributions](http
 | [openSUSE][osuse]                   | [`zypper`][zypper] | [openSUSE Packages][osuse_pkgs]                                           |
 | [Void][void]                  | [`xbps`][xbps]     | [Void Linux Packages][void_pkgs]                                          |
 | [Alpine][alpine]              | [`apk`][apk]       | [Alpine Linux Packages][alpine_pkgs]                                      |
+
+#### Arch Linux Distrobox Container Example:
+
+![i use arch btw|1022x822, 75%](../img/i_use_arch_btw.png)
+
+<small>_I use Arch (in a container) btw._</small>
 
 #### Distrobox Graphical Interface
 
 ![Distroshelf|970x752, 75%](../img/distroshelf_fixedcrop.png)
 
 Distrobox containers can be created and managed graphically with [**DistroShelf**](https://github.com/ranfdev/DistroShelf) which is pre-installed.
-
-#### Distrobox Video Guide
-
-https://youtu.be/5m0YfIiypwA
-
-<hr>
-
-## OLD
-
-## What is Distrobox?
-
-![distrobox|510x413](../img/distrobox.png)
-
-Run other minimal variants of popular Linux distributions in Bazzite inside of a container, and access each distribution's packages without any of their dependencies and libraries affecting the host machine.
-
-## **Important Information**:
-
-- Containers are **not** virtual machines.
-- Containers are intended to be **disposable** and may run into issues where they need to be recreated.
-- Using this method to obtain software **requires knowledge of how traditional Linux operating systems install packages**.
-  - Create a test container to familiarize yourself with basic Linux commands before diving in further.
-
-Distrobox containers run sub-systems of other popular [Linux distributions](https://distrobox.it/compatibility/#containers-distros) with access to their package managers (`apt`, `dnf`, `pacman`, etc.) and their package formats (`.deb`/`.rpm`) and any additional repositories like the [AUR](https://aur.archlinux.org/).
-
-### Arch Linux Distrobox Container Example:
-
-![i use arch btw|1022x822, 75%](../img/i_use_arch_btw.png)
-
-<sub><sup>i use arch (in a container) btw.</sup></sub>
-
-**Linux Distribution Examples**:
-
-| OS                                  | Package Manager    | Search for Packages                                                       |
-| ----------------------------------- | ------------------ | ------------------------------------------------------------------------- |
-| [Fedora][fedora]                    | [`dnf`][dnf]       | [Fedora Packages][fedora_pkgs] / [COPR Packages][copr]                    |
-| [Arch][arch]                  | [`pacman`][pacman] | [Arch Linux Packages][arch_pkgs] / [AUR Packages][aur_pkgs]               |
-| [Debian][debian] / [Ubuntu][ubuntu] | [`apt`][apt]       | [Debian Packages][deb_pkgs] / [Ubuntu Packages][ubuntu_pkgs] ([PPA][ppa]) |
-| [openSUSE][osuse]                   | [`zypper`][zypper] | [openSUSE Packages][osuse_pkgs]                                           |
-| [Void][void]                  | [`xbps`][xbps]     | [Void Linux Packages][void_pkgs]                                          |
-| [Alpine][alpine]              | [`apk`][apk]       | [Alpine Linux Packages][alpine_pkgs]                                      |
 
 ## Use Cases
 
@@ -96,8 +62,6 @@ To "un-export" the app, enter the command below in the container terminal window
 ```bash
 distrobox-export --delete --app <package>
 ```
-
-> [Read Bluefin's documentation on how containers integrate with your system](https://docs.projectbluefin.io/bluefin-dx#pet-containers).
 
 ## Manually Create Pre-Configured Distrobox Containers
 
