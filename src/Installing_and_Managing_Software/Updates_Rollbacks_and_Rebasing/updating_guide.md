@@ -33,7 +33,7 @@ Bazzite updates all of the changes made specifically in Bazzite itself, updates 
     - **Reboot** to apply system upgrades.
 - Updates upgrade system packages, Steam, and installed applications when available.
 
-### Terminal command to upgrade manually (all images):
+### Terminal Command (Manually Upgrade) [All Images):
 
 ```command
 ujust update
@@ -45,3 +45,14 @@ ujust update
 
 - **Desktop images**: While your device is running, newer updates will still download in the background once a day, and will be waiting to be applied until the device is rebooted.
 - **Bazzite-Deck images**: Updates will be checked daily and can be downloaded at your leisure.
+
+### How do I disable automatic updates?
+
+!!! note
+    This is an unsupported configuration since Bazzite is expected to automatically update daily.
+
+Open the terminal and enter this **command**:
+
+```
+ujust _toggle-updates
+```
