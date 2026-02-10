@@ -20,6 +20,10 @@ Install packages in a host terminal with this **terminal command**:
 brew install <package>
 ```
 
+## Bold Brew
+
+<talk about it idk what it is>
+
 ## Project Website
 
 https://brew.sh/
