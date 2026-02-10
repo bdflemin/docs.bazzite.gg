@@ -7,8 +7,8 @@ title: Introduction to Installing Software on Bazzite
 ## Linux Package Formats
 **Package formats ranked from most recommended to least recommended for daily usage**:
 
-0. [**`ujust`**](./ujust.md) (_Convenience Commands_) - Custom scripts maintained by Bazzite & Universal Blue contributors that can also install a small subset of applications. 
-<small>This takes precedent over other formats but since it can only install only a small set of software, it is considered the primary method of installing software in the same sense as installing applications from the Bazaar app store is.</small>
+0. [**Bazzite Portal (`ujust`)**](./ujust.md) (_Convenience Commands_) - Custom scripts maintained by Bazzite & Universal Blue contributors that can also install a small subset of applications. 
+<small>This takes precedent over other formats but since it can only install only a small set of software, it is considered as an extension to system-level settings as opposed to an app store.</small>
 1. [**Bazaar App Store (Flatpak)**](./Flatpak.md) (_Graphical Applications_) - Universal package format using a permissions-based model and should be used for most graphical applications, **it is primary method of obtaining software on Bazzite**.
 2. [**Homebrew**](./Homebrew.md) (_Command-Line Tools_) - Install applications intended to run inside of the terminal (CLI/TUI).
 3. **Containers** -
