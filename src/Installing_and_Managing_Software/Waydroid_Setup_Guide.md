@@ -66,9 +66,12 @@ Selecting `Configure Waydroid` will allow users to install additional Android tw
 
 ##### Available Waydroid Extras:
 
-- [GApps](https://github.com/opengapps/opengapps/wiki/FAQ) (Default Android applications including the **Google Play Store)** or [microG](https://microg.org/) (Free alternatives to Google applications)
+- [**GApps**](https://github.com/opengapps/opengapps/wiki/FAQ) (Default Android applications including the **Google Play Store)** or [microG](https://microg.org/) (Free alternatives to Google applications)
 
-- ARM Translation (_libndk_ or _libhoudini_. _libhoudini_ offers better overall compatibility compared to _libndk_. Some games may run on only one of _libhoudini_ or _libndk_.  On Android 11, _libhoudini_ will run significantly slower than _libndk_ if you have AMD CPU. **Do not install both of them at the same time. If you need to switch, uninstall your current translation layer before installing new one.**)
+- **ARM Translation** (**_libndk_** or **_libhoudini_**)
+- _libhoudini_ offers better overall compatibility compared to _libndk_.
+    - Some games may run on only one of _libhoudini_ or _libndk_.  On Android 11, _libhoudini_ will run significantly slower than _libndk_ if you have AMD CPU.
+    - **Do not install both of them at the same time. If you need to switch, uninstall your current translation layer before installing a new one.**
 
 - [**Magisk**](https://github.com/topjohnwu/Magisk) (Android power user suite)
 
