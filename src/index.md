@@ -45,7 +45,7 @@ hide:
      {style="list-style-type: decimal;"}
   3. [Homebrew][homebrew] for command-line apps and tools.
      {style="list-style-type: decimal;"}
-  4. [Containers for access to most Linux package managers (apt, dnf, pacman, etc.), as development toolboxes, and for hosting service][containers] for access to most Linux package managers and as development toolboxes.
+  4. [Containers][containers] for access to most Linux package managers (`apt`, `dnf`, `pacman`, etc.), as development toolboxes, and for hosting services.
      {style="list-style-type: decimal;"}
   5. [Appimage][appimage] for portable apps found on the web.
      {style="list-style-type: decimal;"}
