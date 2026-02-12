@@ -20,7 +20,7 @@ Rebasing allows users to switch to a different image **without** having to reins
 - Rebase to other Fedora Atomic Desktop images including other Bazzite images.
   - Do **not** rebase between different desktop environments.
 
-## How do I swap between Bazzite (and other Fedora Atomic Desktop) images?
+## How do I swap between Bazzite images?
 
 See what channel or build you are on by **entering this command in a host terminal**:
 
@@ -43,15 +43,15 @@ rpm-ostree rebase <image>
 
 ### **Example**:
 
+!!! warning
+
+    Rebasing between different desktop environments (e.g. KDE Plasma to GNOME) **may cause issues** and is **unsupported**.
+
 ```command
 rpm-ostree rebase ostree-image-signed:docker://ghcr.io/ublue-os/bazzite-deck:stable
 ```
 
-For rebasing to the generic KDE Plasma version of the Handheld & HTPC image.
-
-!!! warning
-
-    Rebasing between different desktop environments (e.g. KDE Plasma to GNOME) **may cause issues** and is **unsupported**.
+For rebasing to the KDE Plasma version of the Bazzite-Deck image.
 
 ## How do I change the Bazzite's update branch? (Stable, Testing, and Unstable)
 
@@ -63,8 +63,6 @@ There are two update branches intended for end-users:
   - Get a sneak peak of future Bazzite builds before release.
   - Bugs may frequently appear.
   - Encouraged to rebase back to `:stable` after testing a major release.
-
-For Desktop images, replacing `:stable` with `:testing` to the end of the rebase command for your Bazzite image allows you to switch to the experimental branches (which may have frequent bugs.)
 
 ### The Unstable Branch
 
@@ -90,22 +88,7 @@ Main (:unstable)
 rpm-ostree rebase ostree-image-signed:docker://ghcr.io/ublue-os/bazzite:testing
 ```
 
-For the **testing** branch on the generic AMD/Intel Desktop image.
-
-## Can I stay on a specific Fedora release?
-
-!!! warning
-
-    You will have to rebase back to `:stable` once you want to upgrade to the next Fedora version.
-
-!!! important
-
-    Switching to older Fedora versions will not bring new updates until you upgrade back to `:stable` and this also means **no security updates** for the time being.
-
-**Yes**, but only if that version of Fedora is still currently supported upstream.
-
-- Replace `:stable` with the supported version of Fedora you would like to stay on.
-- [Fedora Rawhide](https://docs.fedoraproject.org/en-US/releases/rawhide/) is **not** supported.
+For the **testing** branch on the AMD/Intel Desktop image.
 
 ## Rebasing to older builds
 
@@ -113,8 +96,11 @@ For the **testing** branch on the generic AMD/Intel Desktop image.
 
     You will have to rebase back to `:stable` once you want to upgrade to the newest release.
 
-- Like rolling back to the previous Bazzite deployment, users can also rebase to a specific Bazzite builds that was were built within the last 90 days.
-- All of your userdata will remain intact, but like how the warning indicates above, you will have to rebase manually back to `:stable` to update the system to receive the newest build.
+!!! warning
+
+    Switching to older Bazzite builds will not bring new updates until you upgrade back to `:stable` which means there will be no security updates until you rebase back to the stable branch.
+
+Like rolling back to the previous Bazzite deployment, users can also rebase to a specific Bazzite builds that was were built within the last 90 days.  All of your userdata will remain intact, but like how the warning indicates above, you will have to rebase manually back to `:stable` to update the system to receive the newest build.
 
 View the list of available stable builds by **entering**:
 
@@ -136,4 +122,4 @@ rpm-ostree rebase ostree-image-signed:docker://ghcr.io/ublue-os/bazzite-deck:39-
 
 For the _Jan. 13th 2024_ `bazzite-deck` (_Fedora 39_) build.
 
-<sub>_(Please note that this build is no longer available since it is past the 90 day limit and is only used as an example for this documentation.)_</sub>
+<small>_(Please note that this build is no longer available since it is past the 90 day limit and is only used as an example for this documentation.)_</small>
