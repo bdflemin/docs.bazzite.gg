@@ -22,6 +22,8 @@ brew install <package>
 
 ## Bold Brew
 
+![bbrew|3164x2060, 25%](../img/bbrew-installed-screenshot.png)
+
 The Bold Brew application offers a terminal user interface (TUI) for installing common Homebrew packages.
 
 ## Project Website
