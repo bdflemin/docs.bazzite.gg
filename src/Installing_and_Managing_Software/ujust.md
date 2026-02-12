@@ -1,5 +1,5 @@
 ---
-title: `ujust` Commands
+title: ujust Commands
 ---
 
 # `ujust`
