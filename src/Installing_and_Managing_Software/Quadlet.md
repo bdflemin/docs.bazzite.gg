@@ -6,24 +6,24 @@ title: Quadlets (Services)
 
 ![podman|385x358, 50%](../img/podman.png)
 
-Quadlet is a feature of [podman](https://podman.io/) that allows a user to run a container as [systemd](https://systemd.io/) units. It works by using a declarative syntax like [docker compose](https://docs.docker.com/compose/) but integrates to systemd and uses podman as a backend.
+## Quadlet Usecases
 
-#### Quadlet Usecases
+Quadlet is a feature of [podman](https://podman.io/) that allows a user to run a container as [systemd](https://systemd.io/) units. It works by using a declarative syntax like [docker compose](https://docs.docker.com/compose/) but integrates to systemd and uses podman as a backend.
 
 Quadlet can be used for application packaged as a container such as a server application. You can find a lot of examples of containerized applications from [Linux Server](https://docs.linuxserver.io/images/).
 
-#### Managing Quadlet
+## Managing Quadlet
 
 Quadlet can be managed like any other systemd service using below command.
 
 **Checking Quadlet status**
 ```sh
-systemctl --user status nginx
+systemctl --user status <service>
 ```
 
 **Stopping Quadlet**
 ```sh
-systemctl --user stop nginx
+systemctl --user stop <service>
 ```
 
 You can see more commands in [man systemctl](https://man.archlinux.org/man/systemctl.1) or [tldr systemctl](https://tldr.inbrowser.app/pages/linux/systemctl).
@@ -32,7 +32,7 @@ You can see more commands in [man systemctl](https://man.archlinux.org/man/syste
 
     Do not add the `.container` suffix when you interact with systemctl or an error will occur.
 
-#### Quadlet File Locations
+### Quadlet File Locations
 
 You can put your quadlet in these locations sorted by priority:
 
@@ -45,7 +45,7 @@ You can put your quadlet in these locations sorted by priority:
 
     If you want your service to start even when you are not logged in, run `loginctl enable-linger $USER` to start it automatically.
 
-#### Running Quadlet on Startup
+### Running Quadlet on Startup
 
 You may want to run your quadlet automatically on startup, just add an install section to the quadlet file if you want it to autostart. Most of the time `default.target` is what you want but if you need other target you can read about that on systemd docs.
 
@@ -54,7 +54,7 @@ You may want to run your quadlet automatically on startup, just add an install s
 WantedBy=default.target
 ```
 
-#### Converting Docker Compose to Quadlet Unit
+### Converting Docker Compose to Quadlet Unit
 
 You will find that most of containerized apps in the web are built using docker compose. Even the Linux Server that is linked above has all containers documented using a compose file. So you will need to convert it first, before running it as quadlet, fortunately you can use [podlet](https://github.com/containers/podlet) to help you converting it.
 
@@ -62,7 +62,7 @@ You will find that most of containerized apps in the web are built using docker 
 
     By default quadlet require full repository name. Most images are in docker hub so add `docker.io/` (e.g "nginxinc/nginx-unprivileged" becomes "docker.io/nginxinc/nginx-unprivileged") to it.
 
-#### Running Rootful Container as Quadlet
+### Running Rootful Container as Quadlet
 
 While ideally you would run all containers using rootless podman, unfortunately not all containers will work with it.  Use rootful podman by using a different quadlet path and run using root systemctl (without `--user`).
 
@@ -71,7 +71,7 @@ Rootful Quadlet Paths
 - `/etc/containers/systemd/` - Recommended location
 - `/usr/share/containers/systemd/` - Image defined
 
-### Common Quadlet Key Description
+## Common Quadlet Key Description
 
 | Option        | Example                                     | Description                                                                              |
 | ------------- | ------------------------------------------- | ---------------------------------------------------------------------------------------- |
@@ -86,7 +86,7 @@ Rootful Quadlet Paths
 
     The `z` option in volume is to prevent selinux from blocking access to the folder. You can read more [here](https://docs.podman.io/en/stable/markdown/podman-run.1.html#volume-v-source-volume-host-dir-container-dir-options).
 
-#### Troubleshooting
+## Troubleshooting
 
 If your quadlet for some reason isn't found or starting, you can debug the container unit using `/usr/libexec/podman/quadlet -dryrun` for system quadlet or `/usr/libexec/podman/quadlet -user -dryrun` for user quadlet.
 
@@ -203,7 +203,7 @@ WantedBy=default.target
 
     Use absolute path for volume, e.g `/home/username/samba/guest`.
 
-#### Useful Links
+## Useful Links
 
 - https://podman.io/
 - https://docs.podman.io/en/stable/markdown/podman-systemd.unit.5.html
