@@ -10,7 +10,7 @@ title: Bazzite Rollback Helper
 
 `bazzite-rollback-helper` is a command-line tool for rolling back system upgrades or changing the update stream.  Rollback to a Bazzite build within the last 90 days using a command-line utility that assists with **rollbacks**, **rebasing**, and **outputs information on your current Bazzite image**.
 
-### Using `bazzite-rollback-helper`
+## Using `bazzite-rollback-helper`
 
 Open a host terminal and **enter**:
 
@@ -24,16 +24,14 @@ There is also an **alias** which is less typing for those on handhelds or HTPC s
 brh
 ```
 
-#### Options Available:
+## Options Available:
 
 - `list` = List images from the last 90 days that can rebased to.
 - `rollback` = Rollback to the previous deployment on the next reboot.
 - `current` = Show information about your current deployment and image.
 - `rebase` = Switch to another build, update branch, or a different Fedora image **at your own risk**.
 
-## Examples
-
-### Common Commands
+### Examples
 
 `bazzite-rollback-helper list` will list available bazzite images.
 
