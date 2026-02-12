@@ -6,7 +6,7 @@ title: Distrobox Containers
 
 ![distrobox|510x413](../img/distrobox.png)
 
-## The Basics
+## Basic Usage
 
 Run other minimal variants of popular Linux distributions in Bazzite inside of a container and access each distribution's packages without any of their dependencies and libraries affecting the host machine.
 
@@ -16,10 +16,6 @@ Run other minimal variants of popular Linux distributions in Bazzite inside of a
   - Create a test container to familiarize yourself with basic Linux commands before diving in further.
 
 Distrobox containers run sub-systems of other popular [Linux distributions](https://distrobox.it/compatibility/#containers-distros) with access to their package managers (`apt`, `dnf`, `pacman`, etc.) and their package formats (`.deb`/`.rpm`) and any additional repositories like the [AUR](https://aur.archlinux.org/). Distrobox containers can be used for both **development environments** and **installing applications that are not available in any of the other installation methods** which can be exclusive to specific package managers.
-
-![i use arch btw|1022x822, 75%](../img/i_use_arch_btw.png)
-
-<sub><sup>i use arch (in a container) btw.</sup></sub>
 
 ### **Linux Distribution Examples**:
 
