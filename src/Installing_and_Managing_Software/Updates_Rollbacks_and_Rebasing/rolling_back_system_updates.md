@@ -16,7 +16,7 @@ A rollback to the previous system deployment can be done by **entering this comm
 rpm-ostree rollback
 ```
 
-### Using the Bazzite Rollback Helper (`brh) Utility
+### Using the Bazzite Rollback Helper (`brh`) Utility
 
 Rollback to an older Bazzite image from the last 90 days using the **[`brh` command](../Updates_Rollbacks_and_Rebasing/brh.md)**.
 
