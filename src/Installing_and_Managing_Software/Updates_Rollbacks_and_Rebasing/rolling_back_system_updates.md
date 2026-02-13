@@ -18,7 +18,7 @@ rpm-ostree rollback
 
 ### Using the Bazzite Rollback Helper (`brh`) Utility
 
-Rollback to an older Bazzite image from the last 90 days using the **[`brh` command](../Updates_Rollbacks_and_Rebasing/brh.md)**.
+Rollback to an older Bazzite image from the last 90 days using the **[`brh` command](../Updates_Rollbacks_and_Rebasing/bazzite_rollback_helper.md)**.
 
 ### Before Booting Bazzite (GRUB)
 
