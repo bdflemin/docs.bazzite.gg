@@ -56,7 +56,7 @@ ujust | grep "<search keyword(s)>"
 - `setup-`: Install program, provides uninstall and configuration options for after install.
 - `configure-`: Configure something that came by default on the image.
   - If it must be installed first, then it will be in `setup-`.
-- `toggle-`: Enables or disables a feature ore setting.
+- `toggle-`: Enables or disables a feature or setting.
   - Selection might be automatic or manual depending on implementation.
 - `fix-`: Fixes, patches or works around an issue.
 - `distrobox-`: Distrobox exclusive verb intended to make container usage easier.
