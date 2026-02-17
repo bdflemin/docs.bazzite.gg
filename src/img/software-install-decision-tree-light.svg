@@ -10,33 +10,10 @@
    viewBox="0 0 786.91998 691.04999"
    version="1.1"
    id="svg24"
-   sodipodi:docname="software-install-decision-tree-light.svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs24" />
-  <sodipodi:namedview
-     id="namedview24"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="pt"
-     showgrid="false">
-    <inkscape:page
-       x="5.1638677e-23"
-       y="0"
-       width="786.91998"
-       height="691.04999"
-       id="page2"
-       margin="0"
-       bleed="0" />
-  </sodipodi:namedview>
   <g
      id="graph0"
      class="graph"
@@ -67,10 +44,7 @@
     <!-- layer -->
     <!-- can_layer&#45;&gt;layer -->
     <g
-       id="g24"
-       inkscape:export-filename="g24.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
+       id="g24">
       <polygon
          fill="#ffffff"
          stroke="none"
