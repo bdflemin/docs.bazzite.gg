@@ -19,14 +19,14 @@ title: Custom Resolutions
         priority 1
         Panel
         replication source:0
-        Modes:  1:2880x1800@60.00!  2:2880x1800@120.00*  3:1600x1200@59.87...... # output omitted for bevity
+        Modes:  1:2880x1800@60.00!  2:2880x1800@120.00*  3:1600x1200@59.87...... # output omitted for brevity
     ```
     For example, if you want to add a custom mode to **eDP-1**, your ID will be **1**. Note this down.
-3. You can now contruct the command to add your custom mode, following this format:
+3. You can now construct the command to add your custom mode, following this format:
     ```bash
     kscreen-doctor output.<ID>.addCustomMode.<Width>.<Height>.<Refresh>.<Blanking>
     ```
-    Replace each of the options with what you want to set. Note that refresh rate is in **MHz**, so a **75Hz** refresh rate will corresond to `75000` in `<refresh>`.
+    Replace each of the options with what you want to set. Note that refresh rate is in **mHz** (millihertz), so a **75Hz** refresh rate will correspond to `75000` in `<refresh>`.
     `<Blanking>` will be either `full` or `reduced` depending on if you want the timing to be generated with [CVT-RB](../custom_resolution/#interactive-mode-option-explaination)
     
     For example, the command for adding a custom resolution of 1920x1080@75Hz for display ID 1 with reduced blanking would be:
