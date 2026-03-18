@@ -31,13 +31,13 @@ https://www.youtube.com/watch?v=lBqbk6Z8HrQ
 
 All of the images come with the choice of [**KDE Plasma**](https://kde.org/plasma-desktop/) or [**GNOME**](https://www.gnome.org/) for their desktop environment.
 
-[**Steam Gaming Mode**](https://github.com/KyleGospo/gamescope-session) is an option as an additional session to run in addition to KDE Plasma or GNOME.
+[**Steam Gaming Mode**](../../Handheld_and_HTPC_edition/Steam_Gaming_Mode.md) is an option as an additional session to run in addition to KDE Plasma or GNOME.
 
-More information can be found on [**Bazzite's FAQ**](../../Handheld_and_HTPC_edition/index.md) about the differences between the image variants.
+More information can be found on [**Bazzite's FAQ**](../../General/FAQ.md) about the differences between the image variants.
 
 === "KDE Plasma"
 
-    #### [KDE Plasma (Default)](https://kde.org/plasma-desktop/)
+    #### KDE Plasma (Default)
 
     ![Screenshot of the Bazzite desktop running KDE Plasma|690x388, 75%](/img/KDE_Plasma_DE.png)
 
@@ -48,7 +48,7 @@ More information can be found on [**Bazzite's FAQ**](../../Handheld_and_HTPC_edi
 
 === "GNOME"
 
-    #### [GNOME (`-gnome` images)](https://www.gnome.org/)
+    #### GNOME (`-gnome` images)
 
     ![Screenshot of the Bazzite desktop running GNOME|690x388, 75%](/img/GNOME_DE.png)
 
@@ -59,7 +59,7 @@ More information can be found on [**Bazzite's FAQ**](../../Handheld_and_HTPC_edi
 
 === "Steam Gaming Mode"
 
-    #### [Steam Gaming Mode (`-deck` images)](/Handheld_and_HTPC_edition/Steam_Gaming_Mode.md)
+    #### Steam Gaming Mode (`-deck` images)
 
     ![Gaming Mode|690x388, 75%](/img/Gaming_Mode.jpeg)
 
