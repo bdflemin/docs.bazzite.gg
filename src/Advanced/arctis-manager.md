@@ -30,22 +30,7 @@ lam-cli devices list
 
 ## Autostart the tray app (Optional)
 To have the tray icon appear automatically on login, create a manual autostart entry on the host.
-### Create the autostart folder and file
+### Copy the systray .desktop file to the autostart folder
 ```bash
-mkdir -p ~/.config/autostart/
-nano ~/.config/autostart/ArctisManagerSystray.desktop
+cp ~/.local/share/applications/ArctisManagerSystray.desktop ~/.config/autostart/
 ```
-### Paste in configuration
-
-```
-[Desktop Entry]
-Categories=Utility;Application;
-Exec=/usr/bin/sh -c '$HOME/.local/bin/lam-gui --systray >/dev/null 2>&1'
-Icon=arctis-manager
-Name=Arctis Manager (system tray)
-StartupNotify=true
-Terminal=false
-Type=Application
-```
-### Save and Exit
-Press <kbd>Ctrl</kbd>+<kbd>O</kbd> then <kbd>Enter</kbd> to save, and <kbd>Ctrl</kbd>+<kbd>X</kbd> to exit.
