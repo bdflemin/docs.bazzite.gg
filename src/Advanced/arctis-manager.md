@@ -13,7 +13,7 @@ search:
 # Installing Arctis Manager
 
 ## Purpose
-This guide walks you through installing [Linux-Arctis-Manager](https://github.com/elegos/Linux-Arctis-Manager) (v2.0.4+) using Distrobox. This method keeps your host system immutable while providing the manager with necessary hardware access and background services. For a list of currently supported devices as well as advanced documentation, please check the linked repository.
+This guide walks you through installing [**Linux-Arctis-Manager**](https://github.com/elegos/Linux-Arctis-Manager) (v2.0.4+) using Distrobox. This method works without package layering or temporarily turning off the read-only root filesystem while providing the manager with necessary hardware access and background services. For a list of currently supported devices as well as advanced documentation, please check the linked repository.
 
 ## Installation 
 
@@ -24,7 +24,7 @@ curl -LsSf https://raw.githubusercontent.com/elegos/Linux-Arctis-Manager/refs/he
 ```
 > [!NOTE]
 >
-> For Immutable Distros like Bazzite, the app behaves like a native installation rather than an isolated container. Because Distrobox mounts your `/home`, `/var`, and `/etc` directly, the manager can interact with the system services and configuration files it needs to function.
+> For Linux operating systems like Bazzite (image-based / read-only root filesystem), the app behaves like a native installation rather than an isolated container. Because Distrobox mounts your `/home`, `/var`, and `/etc` directly, the manager can interact with the system services and configuration files it needs to function.
 
 ### Enable Autostart (Optional)
 To launch the system tray icon automatically on login, copy its desktop entry to your autostart folder:
