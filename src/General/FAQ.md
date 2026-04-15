@@ -175,7 +175,7 @@ Deployments can also be pinned to rollback for future use, so `:2`, `:3`, etc. c
 
 ## I want Bazzite on a device where video games are not a priority
 
-Universal Blue offers two other desktop images that are similar to Bazzite without the focus on PC gaming, but can still play video games with some small caveats compared to Bazzite and less pre-installed gaming-oriented software.  Both operating systems are similar to Bazzite by sharing resources and development between each other with overlapping contributors:
+Universal Blue offers two other desktop images similar to Bazzite but without the focus on PC gaming. While they can still play games, they include less pre-installed gaming software. Both operating systems share resources and development with Bazzite, often involving the same contributors:
 
 - [**Aurora**](https://getaurora.dev/) if you want the **KDE Plasma** desktop environment
 - [**Bluefin**](https://projectbluefin.io/) if you want the **GNOME** desktop environment.
