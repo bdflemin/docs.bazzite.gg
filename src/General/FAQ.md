@@ -128,6 +128,9 @@ No. A notification with instructions on turning off CSM will occur when the inst
 * There may be individual game mods or [Decky plugins](https://github.com/xXJSONDeruloXx/Decky-Framegen) that mimic similar functionality.
 * If you own [Lossless Scaling](https://store.steampowered.com/app/993090/Lossless_Scaling/) on Steam, you can set up a LSFG Vulkan layer with the `ujust get-lsfg` terminal command.
 
+## Can I theme my GRUB/bootloader?
+Theming the bootloader (GRUB) is unsupported by Bazzite and can cause critical issues such as your system not booting. Please remove any GRUB themes before reporting issues.
+
 ## Can I change the hostname of my device?
 
 !!! note
@@ -169,6 +172,13 @@ Deployments can also be pinned to rollback for future use, so `:2`, `:3`, etc. c
 ## Why is it called Bazzite?
 
 [Fedora Linux's Atomic Desktops](https://fedoraproject.org/atomic-desktops/) originally followed a naming scheme based on [minerals.](https://fedoraproject.org/kinoite/) Bazzite is a mineral that is known for being strong, lightweight, and is [blue](https://universal-blue.org/).
+
+## I want Bazzite on a device where video games are not a priority
+
+Universal Blue offers two other desktop operating systems similar to Bazzite but without the focus on PC gaming. While both can still run video games, they include less pre-installed gaming software and optimizations. All three projects share resources and development with each other, often involving the same contributors:
+
+- [**Aurora**](https://getaurora.dev/) if you want the **KDE Plasma** desktop environment
+- [**Bluefin**](https://projectbluefin.io/) if you want the **GNOME** desktop environment.
 
 ## I have questions or concerns that cannot be answered in the documentation
 
