@@ -1,8 +1,8 @@
 ---
-title: Jouer sur Bazzite
+title: Gaming Guides
 ---
 
-# Jouer sur Bazzite
+# Gaming Guides
 
 - [**Introduction to Gaming on Bazzite**](gaming-intro.md)
 - [**Hardware Compatibility for Gaming**](Hardware_compatibility_for_gaming.md)
