@@ -22,7 +22,7 @@ Hry, které používají Denuvo Anti-Tamper DRM, považují změnu verze Protonu
 
 !!! attention
 
-    **Nezkoušejte postupovat podle tohoto řešení, dokud nenarazíte na problémy se zvukem nebo na konkrétní scénář uvedený níže ohledně _Left 4 Dead 2_.
+    **Nezkoušejte postupovat podle tohoto řešení, dokud nenarazíte na problémy se zvukem nebo na konkrétní scénář uvedený níže ohledně _Left 4 Dead 2_.**
 
 Chybí hlasové linky nebo se nenačítá vlastní obsah ve hrách Source? SELinux blokuje dekódování MP3 a další middleware, protože [**spouští kód v haldové paměti**](https://github.com/ValveSoftware/steam-for-linux/issues/43).
 
