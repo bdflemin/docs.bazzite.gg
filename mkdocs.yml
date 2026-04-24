@@ -81,6 +81,9 @@ plugins:
         - locale: fr
           name: French
           build: true
+        - locale: cs
+          name: Čeština
+          build: true          
 
   - search
   - macros:
