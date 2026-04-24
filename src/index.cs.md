@@ -70,7 +70,7 @@ hide:
   - Streamovací služby bez potíží s DRM.
   - Instalace přes [Google Play Store](https://play.google.com/store/games) nebo [F-Droid](https://f-droid.org/).
 
-- [:fontawesome-solid-handshake: **Přispívání**][contrib]{ style="font-size: 1.1rem" }
+- [:fontawesome-solid-handshake: **Jak přispět**][contrib]{ style="font-size: 1.1rem" }
 
   Bazzite (a [Universal Blue](https://universal-blue.org/), ze kterého vychází) si zakládá na tom, aby přispívání bylo co nejjednodušší.
 
@@ -80,33 +80,28 @@ hide:
 
 </div>
 
-[deck]:  Handheld_and_HTPC_edition/Handheld_Wiki/Steam_Deck.md
-[ally]: Handheld_and_HTPC_edition/Handheld_Wiki/ASUS_ROG_Ally.md
-[legion_go]: Handheld_and_HTPC_edition/Handheld_Wiki/Lenovo_Legion_Go.md
-[ayn]: Handheld_and_HTPC_edition/Handheld_Wiki/Ayn_Handhelds.md
-[onex]: Handheld_and_HTPC_edition/Handheld_Wiki/OneXPlayer_Handhelds.md
-[gpd]: Handheld_and_HTPC_edition/Handheld_Wiki/GPD_Handhelds.md
-[ayaneo]: Handheld_and_HTPC_edition/Handheld_Wiki/Ayaneo_Handhelds.md
-[run_win_game]: Installing_and_Managing_Software/index.md#how-do-i-run-windows-applications
-[enable_proton]: Gaming/Game_Launchers.md#enabling-proton-for-all-steam-games
-[flatpak]: Installing_and_Managing_Software/Flatpak.md
-[ujust]: Installing_and_Managing_Software/ujust.md
-[rpm-ostree]: Installing_and_Managing_Software/rpm-ostree.md
-[distrobox]: Installing_and_Managing_Software/Distrobox.md
-[installing_software]: Installing_and_Managing_Software/index.md
+[deck]: /Handheld_and_HTPC_edition/Handheld_Wiki/Steam_Deck.md
+[ally]: /Handheld_and_HTPC_edition/Handheld_Wiki/ASUS_ROG_Ally.md
+[legion_go]: /Handheld_and_HTPC_edition/Handheld_Wiki/Lenovo_Legion_Go.md
+[ayn]: /Handheld_and_HTPC_edition/Handheld_Wiki/Ayn_Handhelds.md
+[onex]: /Handheld_and_HTPC_edition/Handheld_Wiki/OneXPlayer_Handhelds.md
+[gpd]: /Handheld_and_HTPC_edition/Handheld_Wiki/GPD_Handhelds.md
+[ayaneo]: /Handheld_and_HTPC_edition/Handheld_Wiki/Ayaneo_Handhelds.md
+[flatpak]: /Installing_and_Managing_Software/Flatpak.md
+[ujust]: /Installing_and_Managing_Software/ujust.md
+[rpm-ostree]: /Installing_and_Managing_Software/rpm-ostree.md
+[installing_software]: /Installing_and_Managing_Software/index.md
 [contrib]: https://universal-blue.org/contributing.html
-[homebrew]: Installing_and_Managing_Software/Homebrew.md
-[rpm-ostree_caveats]: Installing_and_Managing_Software/rpm-ostree.md#major-caveats-using-rpm-ostree
-[steam_game_mode]: Handheld_and_HTPC_edition/Steam_Gaming_Mode.md#what-is-steam-gaming-mode
-[appimage]: Installing_and_Managing_Software/AppImage.md
-[updateindex]: Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/index.md/
-[updates]: Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/updating_guide.md/
-[rollbacks]: Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rolling_back_system_updates.md/
-[rebasing]: Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rebase_guide.md/
-[rollback-helper]: Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/bazzite_rollback_helper.md/
-[waydroid]: Installing_and_Managing_Software/Waydroid_Setup_Guide.md
-[gaming]: Gaming/index.md
-[quadlet]: Installing_and_Managing_Software/Quadlet.md
-[otherhand]: Handheld_and_HTPC_edition/Handheld_Wiki/Other_Handhelds.md
-[customimage]: Advanced/creating_custom_image.md
-[containers]: Installing_and_Managing_Software/Containers.md
+[homebrew]: /Installing_and_Managing_Software/Homebrew.md
+[rpm-ostree_caveats]: /Installing_and_Managing_Software/rpm-ostree.md#major-caveats-using-rpm-ostree
+[appimage]: /Installing_and_Managing_Software/AppImage.md
+[updateindex]: /Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/index.md
+[updates]: /Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/updating_guide.md
+[rollbacks]: /Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rolling_back_system_updates.md
+[rebasing]: /Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rebase_guide.md
+[rollback-helper]: /Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/bazzite_rollback_helper.md
+[waydroid]: /Installing_and_Managing_Software/Waydroid_Setup_Guide.md
+[gaming]: /Gaming/index.md
+[otherhand]: /Handheld_and_HTPC_edition/Handheld_Wiki/Other_Handhelds.md
+[customimage]: /Advanced/creating_custom_image.md
+[containers]: /Installing_and_Managing_Software/Containers.md
