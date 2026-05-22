@@ -96,7 +96,6 @@ You may try to install Sunshine Beta with alternative ways as listed below, albe
     sudo dnf5 copr enable pvermeer/sunshine
     rpm-ostree install sunshine-beta
     ```
-    then `rpm-ostree install sunshine` or `rpm-ostree install sunshine-beta`.
     
 === "Installing the experimental brew package"
 
