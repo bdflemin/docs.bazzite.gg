@@ -16,4 +16,4 @@ title: Advanced Guides
 - [**Zobrazit podrobné inicializační protokoly během spouštění**](/Advanced/plymouth_init.md)
 - [**Jak upravit Initramfs a Dracut**](/Advanced/dracut-and-initramfs.md)
 - [**Vytvoření vlastního obrazu Bazzite**](/Advanced/creating_custom_image.md)
-- [**Změny Sunshine na Bazzite**](/Advanced/sunshine-brew.md)
+- [**Změny Sunshine na Bazzite**](/Advanced/sunshine.md)
