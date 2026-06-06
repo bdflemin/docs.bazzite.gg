@@ -15,6 +15,8 @@ The recommended way of setting up Sunshine on Bazzite is through **Bazzite Porta
 
 ## What Should I Do If I am Currently Using Sunshine?
 
+!!! notice "Users of the Bazzite-Deck images, please read this [Section](./sunshine.md#setting-up-sunshine-on-deck-images)"
+
 The guide below will walk you through switching to the Sunshine flatpak.
 !!! warning "It is highly recommended that you do this with physical access to your machine, or at least with an ssh connection set up."
 
@@ -69,8 +71,37 @@ Sunshine does not provide a repository for their flatpak package. You may try to
     
 === "Installing the experimental brew package"
 
+    This method is primarily for users on the Deck images.
     Select Yes in Bazzite Portal 🡒 App Install 🡒 Sunshine 🡒 Enable Beta (Brew).
-    !!! warning "This package is experimental and has known issues related to screen capture and systray indicator."
+    !!! notice "This package is experimental and has known issues related to screen capture and systray indicator. Systray will be disabled and capture mode will be set to KMS by default when installed via Bazzite Portal."
+    
+## Setting up Sunshine on Deck Images
+
+Deck Images make use of Valve's gamescope microcompositor while in **Game Mode**. As gamescope does not support XDG Portal capture or Kwin Screencast, streaming must be done using KMS Capture. As the flatpak package of Sunshine does not support Capture via Kernel Mode Setting, you will need to install Sunshine via alternate means if you want to stream from **Game Mode**. You can stream using XDG Portal capture if you use **Desktop Mode**.
+
+=== "Installing the experimental brew package"
+
+    Select Yes in Bazzite Portal 🡒 App Install 🡒 Sunshine 🡒 Enable Beta (Brew).
+    !!! notice "This package is experimental and has known issues related to screen capture and systray indicator. Systray will be disabled and capture mode will be set to KMS by default when installed via Bazzite Portal."
+    
+=== "Layering from the COPR"
+    
+    This is similar to the situation when sunshine is/was included in the image.
+    Layering the Sunshine Beta package from the [official Beta COPR](https://copr.fedorainfracloud.org/coprs/lizardbyte/beta/) by running
+    ```bash
+    sudo dnf5 copr enable lizardbyte/beta
+    rpm-ostree install Sunshine
+    ```
+    !!! info "Note that this will stop system updates from occurring if Sunshine does not provide an updated package for future Fedora version updates (e.g. Fedora 45). You will be asked to run `rpm-ostree reset` to remove all layered packages when this situation arises."
+
+=== "Layering a community maintained package"
+    
+    Layering the Sunshine/Sunshine-Beta community maintained [package](https://copr.fedorainfracloud.org/coprs/pvermeer/sunshine/) by running
+    ```bash
+    sudo dnf5 copr enable pvermeer/sunshine
+    rpm-ostree install sunshine-beta
+    ```
+    !!! info "This community package is maintained by *pvermeer*, and is not officially endorsed, maintained, nor packaged by Bazzite."
     
 ## Something Went Wrong, What Should I do?
 
