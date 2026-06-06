@@ -37,7 +37,7 @@ Sunshine does provide an RPM (COPR) repository for their Fedora package. You may
 
 === "Layering from the COPR"
     
-    This is similar to the situation when sunshine is/was included in the image.
+    This is similar to the situation when Sunshine is/was included in the image.
     Layering the Sunshine package from the [official stable COPR](https://copr.fedorainfracloud.org/coprs/lizardbyte/stable/) by running
     ```bash
     sudo dnf5 copr enable lizardbyte/stable
