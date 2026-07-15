@@ -240,6 +240,16 @@ ujust enable-supergfxctl
 
 <hr>
 
+## Flatpak Apps have no Hardware Acceleration on Nvidia
+
+**Issue:** If you have recently updated Bazzite on a device with an Nvidia GPU, you might notice that Flatpak applications are running poorly and/or have no hardware acceleration.
+
+**Resolution:** Update the Flatpak Nvidia Runtimes in **Bazzite Updater**, or from the command line with `flatpak update`.
+
+!!! info "Previous attempts at automating this was causing longer boot times and did not work if there was no internet access and is thus not adopted. The better solution is for upstream Flatpak/Nvidia to improve the way these Runtimes are handled, or to create a package that provides a Flatpak Nvidia driver using system libraries, but there is a lot more work needed to make that happen."
+
+<hr>
+
 ## Waking from sleep doesn't work with a Gigabyte b550 motherboard
 
 **Issue:** Once a Gigabyte b550 motherboard suspends, it does not properly resume, and the display remains black until a reboot.
