@@ -6,7 +6,7 @@ title: 常見教程
 
 - [**常見問題**](/General/FAQ.md)
 - [**Dictionary & Terminology**](/General/terms.md)
-- [**Comparison of Bazzite and Fedora Atomic Desktop**](/General/Fedora_Atomic_Comparison.md)
+- [**Bazzite與Fedora原子化發行版**](/General/Fedora_Atomic_Comparison.md)
 - [**SteamOS Comparison**](/General/SteamOS_Comparison.md)
 - [**桌面環境設置**](/General/Desktop_Environment_Tweaks.md)
 - [**VPN Setup**](/General/VPN.md)
