@@ -1,5 +1,5 @@
 ---
-title: Desktop Environment Customization, Themes, and Tweaks
+title: 桌面環境個人化、主題與其他設置
 ---
 
 # 桌面環境個人化、主題與其他設置
@@ -28,7 +28,7 @@ KDE Plasma是Bazzite的預設桌面環境，亦是Linux生態中包含最多個�
 -   Plasma Themes（Plasma主題）: `~/.local/share/plasma/desktoptheme/`
 -   Plasma Window Decorations（Plasma窗口裝飾）: `~/.local/share/aurorae/themes/`
 -   Icon / Cursor Themes（鼠標圖案／系統圖示）: `~/.local/share/icons`
--   Sounds(系統音效）: `~/.local/share/sounds`
+-   Sounds（系統音效）: `~/.local/share/sounds`
 -   Login Screen（登入畫面設置）: Security & Privacy → Login Screen
 
 !!! notice 

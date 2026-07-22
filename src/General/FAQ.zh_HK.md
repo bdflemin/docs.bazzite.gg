@@ -1,5 +1,5 @@
 ---
-title: Frequently Asked Questions
+title: 常見問題
 ---
 
 # 常見問題 (FAQ)

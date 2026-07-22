@@ -1,5 +1,5 @@
 ---
-title: General Guides
+title: 常見教程
 ---
 
 # 常見教程

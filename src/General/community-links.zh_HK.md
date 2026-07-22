@@ -1,5 +1,5 @@
 ---
-title: Community Resources
+title: 社區資源
 ---
 
 # 社區資源
