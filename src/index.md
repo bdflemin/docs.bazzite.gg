@@ -25,7 +25,7 @@ hide:
 
 - [:material-controller: **Playing Video Games**][gaming]{ style="font-size: 1.1rem" }
 
-  Bazzite comes bundled with :fontawesome-brands-steam: [Steam](https://store.steampowered.com) and [Lutris](Gaming/Game_Launchers.md#non-steam-games) to run all of your PC games<sup>1</sup> on multiple hardware configurations!
+  Bazzite comes bundled with :fontawesome-brands-steam: [Steam](https://store.steampowered.com) and [Lutris](Gaming/Game_Launchers.md#non-steam-games) to run all* of your PC games on multiple hardware configurations!
 
   It is also compatible with other tools like:
 
@@ -33,7 +33,7 @@ hide:
   - Games and emulators from the built-in app store that range from [osu!](https://flathub.org/apps/sh.ppy.osu) to [Minecraft](https://flathub.org/apps/org.prismlauncher.PrismLauncher).
   - ...And [more!](https://flathub.org/en/apps/category/game/1)
 
-  <small>\*<sup>1</sup> PC games that are known to work on the Linux desktop, visit [**ProtonDB**](https://protondb.com) and [**Are We Anti-Cheat Yet?**](https://areweanticheatyet.com) for more information</small>.
+  <small>*PC games that are known to work on the Linux desktop, visit [**ProtonDB**](https://protondb.com) and [**Are We Anti-Cheat Yet?**](https://areweanticheatyet.com) for more information</small>.
 
 - [:material-download-circle: **Installing Software**][installing_software]{ style="font-size: 1.1rem" }
 
@@ -50,7 +50,7 @@ hide:
   5. [Appimage][appimage] for portable apps found on the web.
      {style="list-style-type: decimal;"}
 
-  There is also [package layering with `rpm-ostree`][rpm-ostree], but it is [advised to avoid using it if possible][rpm-ostree_caveats] since layered packages can break future upgrades until packages are removed.
+  There is also [package layering with rpm-ostree][rpm-ostree], but it is [advised to avoid using it if possible][rpm-ostree_caveats] since layered packages can break future upgrades until packages are removed.
 
 - [:fontawesome-solid-circle-arrow-down: **Updates & Rollbacks**][updateindex]{ style="font-size: 1.1rem" }
 
@@ -59,7 +59,7 @@ hide:
   - [Updating Guide][updates]
   - [Rollback System Updates][rollbacks]
   - [Rebasing to Other Images][rebasing]
-  - [`bazzite-rollback-helper`][rollback-helper]
+  - [bazzite-rollback-helper][rollback-helper]
 
 - [:fontawesome-brands-android: **Android Applications**][waydroid]{ style="font-size: 1.1rem" }
 
