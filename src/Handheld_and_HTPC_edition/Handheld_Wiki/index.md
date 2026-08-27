@@ -39,7 +39,7 @@ _Click the name of each hardware to view post-installation setup, known working 
 
 There are a few options for TDP Controls that work with Bazzite:
 
-!!! info "If you open OpenGamepadUI and see the message `Waiting for PowerStation service...`, this means your device does not use PowerStation for TDP. This is completely normal and can be safely ignored."
+!!! info "If you open OpenGamepadUI and see the message `TDP managed by Steam`, this means your device's TDP is in fact managed by Steam."
 
 !!! tip "If detailed TDP configurations cannot be found, try selecting the **Performance** profile → scroll down and enable TDP and GPU Clocks. This should enable detailed TDP configuration in Watts."
 
